@@ -1,4 +1,4 @@
-# Movie-Ticket-Booking-Application
+# Movie-Ticket-Application
 This is a complete MERN stack application which has the functionalities of booking and updating the movie tickets. This apllication provides apis for booking movies and updating the movie booking details accordingly. This application provides mainly four api's for Creating, Viewing, Updating and Deleting the movie ticket. All the api's are Rest standard and built using express js. For manipulating the booking details a MongoDB atlas server is used which is accessable every where.
 
 
