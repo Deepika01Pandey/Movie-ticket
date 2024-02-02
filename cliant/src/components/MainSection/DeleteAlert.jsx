@@ -20,7 +20,7 @@ const DeleteAlert = ({
     // using axios for deleting the booking.
     // For deployment in MERN Stack Remove the localhost url.
     const res = await axios.delete(
-      `http://localhost:8080/api/booking/${movieId}`
+      `https://deepika-movie-ticket-booking-app.onrender.com/api/booking/${movieId}`
     );
     if (res.status === 200) {
       toast.success(res.data.msg);

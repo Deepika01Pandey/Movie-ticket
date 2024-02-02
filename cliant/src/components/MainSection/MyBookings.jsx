@@ -16,7 +16,7 @@ const MyBookings = () => {
   const getMovieBookings = async () => {
     // getting the bookings from the mongodb database through the server.
     // For deployment in MERN Stack Remove the localhost url.
-    const res = await axios.get("http://localhost:8080/api/booking");
+    const res = await axios.get("https://deepika-movie-ticket-booking-app.onrender.com/api/booking");
     setBookingObj(res.data);
     setLoaderVisibility(false);
   };

@@ -121,7 +121,7 @@ const MovieAndBookingDetails = () => {
     // posting the selectedmovie and its details to mongodb through the server.
     // For deployment in MERN Stack Remove the localhost url.
     await axios
-      .post("http://localhost:8080/api/booking", selectedMovie)
+      .post("https://deepika-movie-ticket-booking-app.onrender.com/api/booking", selectedMovie)
       .then((res) => {
         console.log(res);
         if (res.status === 200) {

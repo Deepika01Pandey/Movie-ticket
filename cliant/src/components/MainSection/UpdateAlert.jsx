@@ -118,7 +118,7 @@ const UpdateAlert = ({
     // Patch the Movie Details throug axios library.
     // For deployment in MERN Stack Remove the localhost url.
     const res = await axios.patch(
-      `http://localhost:8080/api/booking/${movieId}`,
+      `https://deepika-movie-ticket-booking-app.onrender.com/api/booking/${movieId}`,
       selectedMovie
     );
     if (res.status === 200) {
