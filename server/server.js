@@ -19,7 +19,7 @@ app.use(express.json());
 // enabeling cors for cross origin support.
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "https://deepika-movie-user-interface.onrender.com"],
   })
 );
 // movie router
