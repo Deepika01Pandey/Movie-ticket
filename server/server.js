@@ -17,9 +17,19 @@ main().catch((err) => console.log(err));
 // middlewares
 app.use(express.json());
 // enabeling cors for cross origin support.
-app.use(cors());
+app.use(
+  cors({
+    origin: ["http://localhost:3000"],
+  })
+);
 // movie router
 app.use("/api/booking", movieRouter);
+
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "Welcome to Deepika's movie ticket booking app.",
+  });
+});
 
 // // Handeling Routes of Cliant
 // app.use(express.static(path.resolve(__dirname, process.env.BUILD_DIR)));
