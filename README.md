@@ -24,7 +24,7 @@ This is a complete MERN stack application which has the functionalities of booki
 [Youtube] - (https://www.youtube.com/watch?v=SX1drK7QpvM)
 
 ## Deployment Link
-[Versal] - (https://movie-ticket-booking-application.vercel.app/)
+[Render] - (https://deepika-movie-user-interface.onrender.com/)
 
 ## Available Script to Run the Project
 ### `npm install`
